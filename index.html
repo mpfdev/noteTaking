@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="my-5 container">
+      <h1 class="text-center">Note Taker</h1>
+      <h3 class="text-center">Add A New Note:</h3>
+      <form>
+        <div class="form-group">
+          <label for="exampleTextarea">Note: </label>
+          <textarea
+            class="form-control"
+            id="textArea"
+            rows="3"
+            spellcheck="false"
+          ></textarea>
+        </div>
+        <button id="submitNote" type="button" class="btn btn-success btn-block">
+          Add Note
+        </button>
+      </form>
+      <div class="my-5 row">
+        <div id="cardContainer" class="col-sm cardContainer"></div>
+      </div>
+      <div id="mottoNote" class="row motto"></div>
+    </div>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

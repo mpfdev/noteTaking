@@ -1,0 +1,15 @@
+.cardContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 0 75%;
+  display: block;
+  margin-right: 10px;
+}
+
+.motto {
+}
